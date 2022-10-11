@@ -6,7 +6,7 @@ body{
 	text-align:center;
 	color:#333333;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-image:url(../img/back.jpg);
+	background-image:url(../IMG/back.jpg);
 	background-repeat:none;
 	width:100%;
 	height:100%;
@@ -15,11 +15,13 @@ header{
 	margin:auto;
 	padding-top:20px;
 }
-div{
+.caixa{
 	border:2px solid purple;
-	padding: 1% 5%;
-	margin: 1% 25%;
+	padding: 5px;
+	margin: auto;
 	border-style:outset;
+	border-radius: 20px;
+	width: fit-content;
 }
 h1{
 	background-color:transparent;
@@ -38,13 +40,6 @@ section{
 p{
 	padding:20px 60px;
 	text-align:justify;
-}
-.busca,
-.menu-departamentos{
-	float;left;
-}
-.menu-departamentos{
-	clear;left;
 }
 #b1{
 	border-radius:25px;
@@ -85,4 +80,15 @@ ul{
 #gifs{
 	width:100%;
 	height:70%;
+}
+li{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+section div{
+	background-color: rgb(12, 18, 66);
+	border-radius: 20px;
+	width: fit-content;
+	margin: auto;
+	padding: 5px;
 }
