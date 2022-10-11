@@ -2,4 +2,4 @@
 
 > aula de LGM 30/09
 
-brunakeyt.github.io/aula-doceria
+[Clique aqui para ver](https://brunakeyt.github.io/aula-doceria/)
